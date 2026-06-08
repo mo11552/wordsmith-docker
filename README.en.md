@@ -176,11 +176,11 @@ Now, we want to optimize image size.
 
 We can use multi-stage builds, or leverage images based on Alpine.
 
-Here are some targets:
+Here are some targets. The numbers correspond to the "CONTENT SIZE" column in recent versions of Docker.
 
 - for `web`, 100 MB is a good result, andd 10 MB is a very good result;
-- for `words`, 200 MB is a good result, and 50 MB is a very good result;
-- for `db`, 300 MB is a good result.
+- for `words`, 100 MB is a good result, and 50 MB is a very good result;
+- for `db`, 150 MB is a good result.
 
 
 ## Exercise 3: Optimizing build time

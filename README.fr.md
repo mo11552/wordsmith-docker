@@ -170,11 +170,11 @@ On souhaite maintenant optimiser la taille des images.
 
 Pour cela, on pourra utiliser notamment des _multi-stage builds_, ou encore s'appuyer sur des images basées sur Alpine.
 
-Voici quelques objectifs indicatifs :
+Voici quelques objectifs indicatifs. Les tailles indiquées correspondent à la colonne "CONTENT SIZE" dans les versions récentes de Docker.
 
-- pour l'image `web`, on considérera qu'une image de 100 Mo est un bon résultat, et qu'une image de 10 Mo est un très bon résultat ;
-- pour l'image `words`, on considérera qu'une image de 200 Mo est un bon résultat, et qu'une image de 50 Mo est un très bon résultat ;
-- pour l'image `db`, on considérera qu'une image de 300 Mo est un bon résultat.
+- pour l'image `web`, on considérera qu'une image en dessous de 100 Mo est un bon résultat, et qu'une image en dessous de 10 Mo est un très bon résultat ;
+- pour l'image `words`, on considérera qu'une image en dessous de 100 Mo est un bon résultat, et qu'une image en dessous de 50 Mo est un très bon résultat ;
+- pour l'image `db`, on considérera qu'une image en dessous de 150 Mo est un bon résultat.
 
 
 ## Exercice 3 : Optimisation du temps de *build* des images
