@@ -1,4 +1,4 @@
-# [English](README.en.md)
+
 # Wordsmith Docker Application
 
 A three-tier application containerized with Docker and managed with Docker Compose. The project demonstrates communication between a web frontend, a Java API, and a PostgreSQL database.
